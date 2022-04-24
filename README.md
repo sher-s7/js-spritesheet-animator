@@ -1,5 +1,6 @@
 # js-spritesheet-animator
-
+# Demo
+https://sher-s7.github.io/js-spritesheet-animator/
 # Usage
 ```js
 import animateSpritesheet, { METHODS } from "./animateSpritesheet.js";
