@@ -1,4 +1,5 @@
-# js-spritesheet-animator
+# spritesheet-animate
+[![npm version](https://badge.fury.io/js/spritesheet-animate.svg)](https://badge.fury.io/js/spritesheet-animate)
 # Demo
 https://sher-s7.github.io/js-spritesheet-animator/
 # Usage
