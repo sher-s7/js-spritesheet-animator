@@ -34,8 +34,8 @@ const animation = animateSpritesheet(spritesheet, settings);
 | `path`                 | null     | `string`            | Path to the spritesheet                                                                         |
 | `mobile_path`          | null     | `string (optional)` | Path to the mobile version of the spritesheet (should be the same spritesheet, but scaled down) |
 | `method`               | `"auto"` | `string`            | `"auto"`: autoplay the animation<br>`"onScroll"`: animate on scroll                             |
-| `sprite_width`         | null     | `number`            | Width of an individual sprite                                                                   |
-| `sprite_height`        | null     | `number`            | Height of an individual sprite                                                                  |
+| `sprite_width`         | null     | `number`            | Width of an individual sprite (px)                                                              |
+| `sprite_height`        | null     | `number`            | Height of an individual sprite (px)                                                             |
 | `sprite_width_mobile`  | null     | `number`            | Width of an individual sprite in the mobile spritesheet (if provided)                           |
 | `sprite_height_mobile` | null     | `number`            | Height of an individual sprite in the mobile spritesheet (if provided)                          |
 | `sprites_per_line`     | null     | `number`            | Number of sprites in each line of the spritesheet                                               |
