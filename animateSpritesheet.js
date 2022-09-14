@@ -1,13 +1,9 @@
-// export const DIRECTIONS = {
-//   horizontal: "horizontal",
-//   vertical: "vertical"
-// };
 export const METHODS = {
   auto: "auto",
   onScroll: "onScroll",
 };
 
-function animateSpritesheet(element, settings) {
+export const animateSpritesheet = (element, settings) => {
   const {
     path,
     mobile_path,
@@ -16,7 +12,6 @@ function animateSpritesheet(element, settings) {
     sprite_height,
     sprite_width_mobile,
     sprite_height_mobile,
-    // direction,
     sprites_per_line,
     number_of_sprites,
     fps = 24,
@@ -118,6 +113,4 @@ function animateSpritesheet(element, settings) {
   return {
     setMethod,
   };
-}
-
-export default animateSpritesheet;
+};

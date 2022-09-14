@@ -3,7 +3,7 @@
 https://sher-s7.github.io/js-spritesheet-animator/
 # Usage
 ```js
-import animateSpritesheet, { METHODS } from "./animateSpritesheet.js";
+import { animateSpritesheet, METHODS } from "./animateSpritesheet.js";
 const spritesheet = document.getElementById("spritesheet");
 
 const settings = {

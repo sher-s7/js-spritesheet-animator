@@ -1,4 +1,4 @@
-import animateSpritesheet, { METHODS } from "./animateSpritesheet.js";
+import { animateSpritesheet, METHODS } from "./animateSpritesheet.js";
 
 const spritesheet = document.getElementById("spritesheet");
 
